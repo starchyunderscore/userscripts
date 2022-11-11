@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        New script - tumblr.com
+// @name        bluecheckforzvaigzdelasas - tumblr.com
 // @namespace   Violentmonkey Scripts
 // @match       https://www.tumblr.com/*
 // @grant       none
-// @version     1.0
-// @author      -
-// @description 11/11/2022, 5:08:45 PM
+// @version     1.3
+// @author      starchyunderscore
+// @description 2022-11-11, 5:08:45 PM
 // ==/UserScript==
 
 var elms = document.getElementsByTagName("a");
