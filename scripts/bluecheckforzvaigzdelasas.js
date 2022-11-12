@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.tumblr.com/*
 // @grant       none
-// @version     1.3
+// @version     1.6
 // @author      starchyunderscore
 // @description 2022-11-11, 5:08:45 PM
 // ==/UserScript==
