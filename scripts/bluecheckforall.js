@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        bluecheckforzvaigzdelasas - tumblr.com
+// @name        bluecheckforall - tumblr.com
 // @frames
 // @namespace   Violentmonkey Scripts
 // @match       https://www.tumblr.com/*
