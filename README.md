@@ -3,9 +3,7 @@ various userscripts
 
 ### script list
 
-|script|active development|
+|active development|script|
 |:-:|:-:|
-|[give everyone the blue checkmarks on tumblr](https://github.com/starchyunderscore/userscripts/blob/main/scripts/bluecheckforzvaigzdelasas.js)|[x]|
-|:--|:--|
-|[give just zvaigzdelasas the blue checkmarks on tumblr](https://github.com/starchyunderscore/userscripts/blob/main/scripts/bluecheckforzvaigzdelasas.js)|[]|
-|:--|:--|
+- [x] [give everyone the blue checkmarks on tumblr](https://github.com/starchyunderscore/userscripts/blob/main/scripts/bluecheckforzvaigzdelasas.js)
+- [] [give just zvaigzdelasas the blue checkmarks on tumblr](https://github.com/starchyunderscore/userscripts/blob/main/scripts/bluecheckforzvaigzdelasas.js)
