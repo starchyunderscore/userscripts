@@ -3,7 +3,7 @@
 // @namespace   https://github.com/starchyunderscore
 // @match       https://codehs.com/*
 // @grant       none
-// @version     1.3
+// @version     1.4
 // @author      starchyunderscore
 // @description Adds pasting workaround for codehs.com for when pasting is disabled.
 // ==/UserScript==
@@ -19,6 +19,12 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function overrideListeners(eventType) {
+  window.addEventListener(eventType, function(event) {
+      event.stopImmediatePropagation();
+  }, true);
+}
+
 var inputDiv = document.createElement("div"),
     inputText = document.createElement("textarea"),
     inputButton = document.createElement("button");
@@ -28,6 +34,9 @@ window.addEventListener("load", (event) => {
   sleep(200).then( () => {
     try {
       console.log("TRY BLOCK START");
+      overrideListeners("cut");
+      overrideListeners("copy");
+      overrideListeners("paste");
       var ACE_SCROLLER = document.getElementsByClassName("ace_scroller")[0];
       console.log(ACE_SCROLLER);
       if (ACE_SCROLLER != undefined) {
